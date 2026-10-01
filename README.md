@@ -1,11 +1,32 @@
-<div align="center">
+# RAPEX DASH
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A neon arcade courier runner built with **React + TypeScript + Three.js (WebGL)**.
+Pickup missions, tactical GPS minimap, traffic, vehicle progression and boost controls.
+All data is local (saved in the browser). No backend.
 
-  <h1>Built with AI Studio</h2>
+Live: https://rapexofficial2025-stack.github.io/rapex-dash/
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Run locally
 
-  <a href="https://staging.rapexmaketplace.store">Start building</a>
+```bash
+npm install
+npm run dev
+```
 
-</div>
+## Embed in a portfolio
+
+```html
+<iframe
+  src="https://rapexofficial2025-stack.github.io/rapex-dash/"
+  title="RAPEX DASH"
+  width="100%"
+  height="600"
+  style="border:0;border-radius:16px"
+  allow="fullscreen"
+></iframe>
+```
+
+## Deploy
+
+Pushing to `main` builds the app and publishes `dist/` to GitHub Pages
+(see `.github/workflows/static.yml`).
